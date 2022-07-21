@@ -9,7 +9,7 @@ pub struct SolanaWallet {
     pub_key: Pubkey
 }
 
-// TODO: Get rids of unwrap and improve API.
+// TODO: Get rid of unwrap and improve API.
 
 impl SolanaWallet {
     pub fn new(address: &str) -> Self {
