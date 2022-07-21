@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Wallet",
+	"Description": "Wallet",
+	"Category": "Other",
+	"CreatedBy": "Sensorial",
+	"CreatedByURL": "https://github.com/sensorial-systems",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Wallet",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
