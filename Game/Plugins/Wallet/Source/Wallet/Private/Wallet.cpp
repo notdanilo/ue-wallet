@@ -3,3 +3,6 @@
 
 #include "Wallet.h"
 
+int UWallet::CreateWallet() {
+	return 123;
+}

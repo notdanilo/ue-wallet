@@ -12,6 +12,8 @@
 UCLASS()
 class WALLET_API UWallet : public UObject
 {
+public:
 	GENERATED_BODY()
-	
+	UFUNCTION(BlueprintCallable, Category = "Wallet")
+	static int CreateWallet();
 };
