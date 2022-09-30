@@ -4,16 +4,31 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "NFT.h"
+#include "WalletManager.h"
 #include "Wallet.generated.h"
 
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType)
 class WALLET_API UWallet : public UObject
 {
-public:
 	GENERATED_BODY()
+public:
+	static UWallet* CreateWallet(UWalletManager* Manager, const FString& Address);
+	virtual ~UWallet();
+
 	UFUNCTION(BlueprintCallable, Category = "Wallet")
-	static int CreateWallet();
+	double GetBalance() const;
+
+	UFUNCTION(BlueprintCallable, Category = "Wallet")
+	FString GetAddress() const;
+
+	UFUNCTION(BlueprintCallable, Category = "Wallet")
+	TArray<UNFT*> ListNFTs() const;
+
+private:
+	UWalletManager* Manager = 0;
+	void* Instance = 0;
 };

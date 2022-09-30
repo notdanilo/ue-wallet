@@ -11,7 +11,7 @@ use thiserror::Error;
 use retry::{delay::Exponential, retry};
 use borsh::BorshDeserialize;
 use serde_json::{json, Value};
-use anyhow::{anyhow, Result as AnyResult};
+use anyhow::Result as AnyResult;
 
 
 #[derive(Serialize, Debug)]
