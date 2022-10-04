@@ -1,1 +1,1 @@
-/c/Program\ Files/Epic\ Games/UE_5.0/Engine/Binaries/Win64/UnrealEditor-Cmd.exe /c/NH/Blockchain/wallet/Game/Game.uproject
+../../../../../UnrealEngine/Engine/Binaries/Win64/UnrealEditor-Cmd.exe $(realpath ../../../../NyanHeroes_Prototype.uproject)

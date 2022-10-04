@@ -1,1 +1,1 @@
-cargo build --release && cp target/release/wallet.dll Game/Plugins/Wallet/Binaries/Win64/wallet.dll
+cargo build --release && cp target/release/wallet.dll ../../Binaries/Win64/wallet.dll
