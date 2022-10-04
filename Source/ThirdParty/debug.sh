@@ -1,1 +1,1 @@
-cargo build && cp target/debug/wallet.dll Game/Plugins/Wallet/Binaries/Win64/wallet.dll
+cargo build && cp target/debug/wallet.dll ../../Binaries/Win64/wallet.dll
