@@ -1,4 +1,4 @@
-/target
-Cargo.lock
-.env
-.idea
+Intermediate
+Saved
+Binaries
+!Binaries/Win64/wallet.dll
